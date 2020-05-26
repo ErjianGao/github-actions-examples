@@ -6,14 +6,14 @@ name: Java CI with Maven
 # 监听
 on:
   push:
-  	# 向master push的时候执行
+  # 向master push的时候执行
     branches: [ master ]
   pull_request:
     branches: [ master ]
 
 jobs:
   build:
-  	# 默认情况最新的ubuntu的系统
+  # 默认情况最新的ubuntu的系统
     runs-on: ubuntu-latest
     steps:
     #执行use后执行什么，把源码提取出去
